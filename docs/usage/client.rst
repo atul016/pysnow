@@ -133,4 +133,4 @@ autorefresh of the tokens. This will work for as long as the refresh_token is va
                                  auto_refresh_kwargs=refresh_kwargs,
                                  token_updater=token_updater)
 
-   s = pysnow.client(instance=instance, session=oauth_session)
+   s = pysnow.Client(instance=instance, session=oauth_session)
